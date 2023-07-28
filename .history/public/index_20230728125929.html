@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Remote Keyboard</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="keyboard">
+      <div class="key" data-key="1"></div>
+      <div class="key" data-key="2"></div>
+      <div class="key" data-key="3"></div>
+      <div class="key" data-key="4"></div>
+      <div class="key" data-key="5"></div>
+      <div class="key" data-key="6"></div>
+      <div class="key" data-key="7"></div>
+      <div class="key" data-key="8"></div>
+      <div class="key" data-key="9"></div>
+      <div class="key" data-key="10"></div>
+    </div>
+    <button id="acquireControlBtn">Acquire Control</button>
+    <button id="releaseControlBtn" disabled>Release Control</button>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

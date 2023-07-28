@@ -1,0 +1,22 @@
+/* styles.css */
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.keyboard {
+  width: 250px;
+  margin: 50px auto;
+}
+
+.key {
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+  grid-template-rows: repeat(2, 50px);
+  gap: 5px;
+}

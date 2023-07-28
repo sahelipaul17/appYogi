@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  margin: 10px
+}
+
+.row {
+  display: flex;
+}
+
+.key {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  background-color: white;
+  border: 1px solid #0a0a0a;
+  cursor: pointer;
+}
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.key.lit {
+  background-color: red;
+}
+
+.key[data-user="2"].lit {
+  background-color: yellow;
+}

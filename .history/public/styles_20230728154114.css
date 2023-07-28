@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+#keyboard {
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+  grid-template-rows: repeat(2, 50px);
+  gap: 5px;
+}
+
+.key {
+  width: 50px;
+  height: 50px;
+  margin-left:auto; 
+  margin-right:auto;
+  margin-top: 4px;
+  align-items: center;
+  display: inline-block;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#controlBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
